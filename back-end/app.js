@@ -1,8 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const userRoutes = require("./routes/user-routes");
-
- 
 const app = express();
 
 app.use(express.json());
@@ -20,7 +18,6 @@ app.use((req, res, next) => {
 
 
 app.use("/api", userRoutes);
-
 
 const uri = "mongodb+srv://mahendra:Balumahi7780@cluster0.wlu0ovk.mongodb.net/dokonoly?retryWrites=true&w=majority"
 

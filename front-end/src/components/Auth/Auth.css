@@ -35,8 +35,9 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 .photo img{
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
 }

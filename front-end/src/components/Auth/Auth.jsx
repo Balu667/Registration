@@ -43,6 +43,7 @@ export const Auth = ({setUser}) => {
          navigate("/home")
          console.log(data,"response data");
      }catch(err){
+        alert("username and password incorrect, Please check")
          console.log(err);
      }
 
